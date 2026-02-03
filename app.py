@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from GitHub Actions!"
+    return "Hello Devops from GitHub Actions!"
 
 app.run(host="0.0.0.0", port=5000)
